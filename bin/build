@@ -4,7 +4,7 @@
 BUILD_DIR=$1
 CERT_URL=https://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem
 
-echo "downloading ${CERT_URL}"
+echo "Downloading ${CERT_URL}"
 
-curl --silent ${CERT_URL} > $BUILD_DIR/rds-combined-ca-bundle.pem
+curl --fail -v ${CERT_URL} > $BUILD_DIR/rds-combined-ca-bundle.pem
 exit $?

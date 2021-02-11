@@ -1,0 +1,9 @@
+api = "0.2"
+
+[buildpack]
+id = "com.guild.rds-certificate"
+version = "0.0.1"
+name = "RDS Certificate Buildpack"
+
+[[stacks]]
+id = "heroku-18"
