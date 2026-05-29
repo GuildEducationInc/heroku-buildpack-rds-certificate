@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+>
+> This project is deprecated and is read-only for historical context only.
+
 Heroku buildpack to download the RDS SSL certificate and store it in the root of your app.
 
 The filename will be `/app/rds-combined-ca-bundle.pem`.
